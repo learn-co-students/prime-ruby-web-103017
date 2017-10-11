@@ -11,7 +11,7 @@ def prime?(input)
   end
 
   i = 2
-  while i < input
+  while i <= (input/2)
     if input % i == 0
       return false
     else
